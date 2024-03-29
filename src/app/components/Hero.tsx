@@ -22,10 +22,9 @@ const Hero = () => {
             />
           </h1>
           <p className='text-[#adb7be] text-base sm:text-lg mb-6 lg:text-xl'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas,
-            iste libero, explicabo veniam beatae distinctio, id minus modi natus
-            repellendus. Numquam nemo consequuntur sequi exercitationem porro,
-            amet neque officia.
+            Hi, I'm a fullstack developer with experience in various
+            technologies and stacks. My approach to development is to strive to
+            create efficient, scalable and intuitive solutions for users.
           </p>
           <div>
             <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white'>

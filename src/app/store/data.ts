@@ -58,7 +58,7 @@ export const projectsData = [
     id: 5,
     title: 'Puzzle',
     description: 'Lich king theme puzzle',
-    image: '/projects/5.png',
+    image: '/projects/5.2.png',
     tag: ['All', 'Frontend'],
     gitUrl: 'https://github.com/rolling-scopes-school/conservativ007-JS2020Q3',
     previewUrl:
@@ -68,7 +68,7 @@ export const projectsData = [
     id: 6,
     title: 'Momentum',
     description: 'Clone of the application of the same name',
-    image: '/projects/6.png',
+    image: '/projects/6.2.png',
     tag: ['All', 'Frontend'],
     gitUrl: 'https://github.com/conservativ007/momentum',
     previewUrl: 'https://momentumbyconservativ.netlify.app/',
