@@ -19,8 +19,9 @@ export const projectsData = [
   {
     id: 1,
     title: 'Project: Music Service',
-    description:
-      'Created a Home Library Service! Users can create, read, update, delete data about Artists, Tracks and Albums, add them to Favorites in their own Home Library!',
+    description: 'Служба домашней библиотеки!',
+    // description:
+    //   'Created a Home Library Service! Users can create, read, update, delete data about Artists, Tracks and Albums, add them to Favorites in their own Home Library!',
     image: '/projects/1.png',
     tag: ['All', 'Backend'],
     gitUrl: 'https://github.com/conservativ007/nodejs2022Q4-service',
@@ -28,9 +29,11 @@ export const projectsData = [
   },
   {
     id: 2,
-    title: 'Project: Chat Service',
-    description:
-      'The chat Service, you can create a user and communicate with another people. Send messages, send emoticons, like messages, edit and delete messages, there is a general chat and a private chat',
+    title: 'Онлайн чат',
+    description: 'Общайтесь с друзьями, знакомтесь!',
+    // title: 'Project: Chat Service',
+    // description:
+    //   'The chat Service, you can create a user and communicate with another people. Send messages, send emoticons, like messages, edit and delete messages, there is a general chat and a private chat',
     image: '/projects/2.png',
     tag: ['All', 'Front+Back'],
     gitUrl: 'https://github.com/conservativ007/chat-server',
@@ -39,7 +42,9 @@ export const projectsData = [
   {
     id: 3,
     title: 'Learning english words',
-    description: 'Learn English words with flashcards',
+    description: 'Приложение для изучения Английских слов',
+    // title: 'Learning english words',
+    // description: 'Learn English words with flashcards',
     image: '/projects/3.png',
     tag: ['All', 'Frontend'],
     gitUrl: 'https://github.com/conservativ007/learn-english',
@@ -48,7 +53,8 @@ export const projectsData = [
   {
     id: 4,
     title: 'Shelter',
-    description: 'Shelter not only people need a house',
+    description: 'Сайт помощи бездомным животным',
+    // description: 'Shelter not only people need a house',
     image: '/projects/4.png',
     tag: ['All', 'Frontend'],
     gitUrl: 'https://github.com/conservativ007/shelter',
@@ -56,8 +62,10 @@ export const projectsData = [
   },
   {
     id: 5,
-    title: 'Puzzle',
-    description: 'Lich king theme puzzle',
+    title: 'Пазл',
+    description: 'Попробуй свои силы в пазле',
+    // title: 'Puzzle',
+    // description: 'Lich king theme puzzle',
     image: '/projects/5.2.png',
     tag: ['All', 'Frontend'],
     gitUrl: 'https://github.com/rolling-scopes-school/conservativ007-JS2020Q3',
@@ -67,7 +75,8 @@ export const projectsData = [
   {
     id: 6,
     title: 'Momentum',
-    description: 'Clone of the application of the same name',
+    description: 'Приложение погоды',
+    // description: 'Clone of the application of the same name',
     image: '/projects/6.2.png',
     tag: ['All', 'Frontend'],
     gitUrl: 'https://github.com/conservativ007/momentum',
@@ -76,7 +85,8 @@ export const projectsData = [
   {
     id: 7,
     title: 'Web dev',
-    description: 'Layout',
+    description: 'Вёрстка',
+    // description: 'Layout',
     image: '/projects/7.png',
     tag: ['All', 'Frontend'],
     gitUrl: 'https://github.com/conservativ007/webdev',
@@ -84,8 +94,10 @@ export const projectsData = [
   },
   {
     id: 8,
-    title: 'English for kids',
-    description: 'Learning some English words for little ones',
+    title: 'Английский для детей',
+    description: 'Изучение некоторых английских слов для самых маленьких',
+    // title: 'English for kids',
+    // description: 'Learning some English words for little ones',
     image: '/projects/8.png',
     tag: ['All', 'Frontend'],
     gitUrl: 'https://github.com/conservativ007/english-for-kids',
@@ -93,8 +105,10 @@ export const projectsData = [
   },
   {
     id: 9,
-    title: 'Tic Tac Toe',
-    description: 'Tic Tac Toe game',
+    title: 'Крестики нолики',
+    description: 'Игра крестики нолики',
+    // title: 'Tic Tac Toe',
+    // description: 'Tic Tac Toe game',
     image: '/projects/9.png',
     tag: ['All', 'Frontend'],
     gitUrl: 'https://github.com/conservativ007/react-game',
@@ -102,8 +116,10 @@ export const projectsData = [
   },
   {
     id: 10,
-    title: 'Blade runner',
-    description: 'Blade runner game',
+    title: 'Бегущий по лезвию',
+    description: 'Игра бегущий по лезвию',
+    // title: 'Blade runner',
+    // description: 'Blade runner game',
     image: '/projects/10.png',
     tag: ['All', 'Frontend'],
     gitUrl: 'https://github.com/conservativ007/rsclone',

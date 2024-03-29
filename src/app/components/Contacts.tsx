@@ -16,9 +16,11 @@ const Email = () => {
         </h5>
         <p className='text-[#ADB7BE] mb-4 max-w-md'>
           {' '}
-          I&apos;m currently looking for new opportunities. Whether you have a
+          {/* I&apos;m currently looking for new opportunities. Whether you have a
           question or just want to say hi, I&apos;ll try my best to get back to
-          you!
+          you! */}
+          Я в поиске новых задач и интересных проектов, готов к сотрудничеству и
+          новым вызовам, буду рад новым знакомствам!
         </p>
         <p className='text-[#ADB7BE] mb-4'>+375296705208</p>
         <div className='socials flex flex-row gap-3'>

@@ -19,6 +19,7 @@ const Navbar = () => {
         >
           LOGO
         </Link>
+        {/* <div className='md:hidden absolute right-28 text-2xl'>en</div> */}
         <div className='mobile-menu block md:hidden'>
           {!navbarOpen ? (
             <button

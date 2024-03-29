@@ -5,7 +5,11 @@ import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
 import { downloadCV } from '../api/downloadCV'
 
+import { languageStore } from '@/app/store/zustand-store'
+
 const Hero = () => {
+  const { language, toggleLanguage } = languageStore((state) => state)
+
   return (
     <section className='lg:py-16'>
       <div className='grid grid-cols-1 sm:grid-cols-12'>
@@ -22,15 +26,15 @@ const Hero = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className='text-[#adb7be] text-base sm:text-lg mb-6 lg:text-xl'>
-            Hi, I'm a fullstack developer with experience in various
+          <p className='text-[#adb7be] text-base sm:text-lg sm:mt-10 mb-6 lg:text-xl'>
+            {/* Hi, I'm a fullstack developer with experience in various
             technologies and stacks. My approach to development is to strive to
-            create efficient, scalable and intuitive solutions for users.
+            create efficient, scalable and intuitive solutions for users. */}
+            Опытный full-stack разработчик с комплексным подходом к созданию
+            веб-приложений, обладающий глубокими знаниями и опытом работы с
+            frontend и backend.
           </p>
           <div>
-            {/* <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white'>
-              Hire me
-            </button> */}
             <button
               onClick={downloadCV}
               className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3'
@@ -58,3 +62,6 @@ const Hero = () => {
 }
 
 export default Hero
+function useStore<T>(): { count: any; increment: any; decrement: any } {
+  throw new Error('Function not implemented.')
+}
