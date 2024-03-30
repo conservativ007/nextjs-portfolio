@@ -66,7 +66,9 @@ const Skills = ({ tab }: ISkills) => {
   ]
 
   return (
-    <div className='mt-8'>{TAB_DATA.find((t) => t.id === tab)?.content}</div>
+    <div className='mt-8 min-h-[270px]'>
+      {TAB_DATA.find((t) => t.id === tab)?.content}
+    </div>
   )
 }
 

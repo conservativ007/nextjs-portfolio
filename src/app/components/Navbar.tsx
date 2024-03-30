@@ -6,6 +6,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid'
 import MenuOverlay from './MenuOverlay'
 import { navLinks } from '../store/data'
 import MenuNavLink from './NavLink'
+import { FaHeartbeat } from 'react-icons/fa'
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false)
@@ -17,10 +18,10 @@ const Navbar = () => {
           href={'/'}
           className='text-2xl md:text-5xl text-white font-semibold'
         >
-          LOGO
+          <FaHeartbeat size={30} color='#db2777' />
         </Link>
         {/* <div className='md:hidden absolute right-28 text-2xl'>en</div> */}
-        <div className='mobile-menu block md:hidden'>
+        {/* <div className='mobile-menu block md:hidden'>
           {!navbarOpen ? (
             <button
               onClick={() => setNavbarOpen(true)}
@@ -36,9 +37,9 @@ const Navbar = () => {
               <XMarkIcon className='h-5 w-5' />
             </button>
           )}
-        </div>
-        <div className='menu hidden md:block md:w-auto' id='navbar'>
-          <ul className='flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0'>
+        </div> */}
+        <div className='menu md:w-auto' id='navbar'>
+          <ul className='flex md:space-x-8 mt-0'>
             {navLinks.map((link, index) => (
               <li key={index}>
                 <NavLink href={link.path} title={link.title} />

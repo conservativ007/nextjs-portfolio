@@ -10,7 +10,7 @@ export const navLinks: INavLinks[] = [
     path: '#projects',
   },
   {
-    title: 'Contact',
+    title: 'Contacts',
     path: '#contact',
   },
 ]
