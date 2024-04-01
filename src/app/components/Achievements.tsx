@@ -15,16 +15,8 @@ const achievementsList = [
     value: '10+',
     postfix: '+',
   },
-  // {
-  //   prefix: '~',
-  //   metric: 'Users',
-  //   value: '100,000',
-  // },
-  // {
-  //   metric: 'Awards',
-  //   value: '7',
-  // },
   {
+    // prefix: '~',
     metric: 'Опыт',
     value: '1',
     postfix: '+',
@@ -33,7 +25,7 @@ const achievementsList = [
 
 const Achievements = () => {
   return (
-    <div className='flex py-8 xl:gap-16 sm:py-16'>
+    <div className='flex sm:justify-start justify-center py-8 xl:gap-16 sm:py-16'>
       <div className='border-[#33353F] border rounded-md sm:py-6 px-6 flex items-center justify-start gap-5'>
         {achievementsList.map((achievement, index) => {
           return (

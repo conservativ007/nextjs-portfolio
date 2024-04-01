@@ -41,17 +41,26 @@ export const projectsData = [
   },
   {
     id: 3,
-    title: 'Learning english words',
-    description: 'Приложение для изучения Английских слов',
+    title: 'Anime',
+    description: 'NextJS - Server Actions',
     // title: 'Learning english words',
     // description: 'Learn English words with flashcards',
+    image: '/projects/11.png',
+    tag: ['All', 'Frontend'],
+    gitUrl: 'https://github.com/conservativ007/next-anime_vault',
+    previewUrl: 'https://next-anime-vault-woad.vercel.app/',
+  },
+  {
+    id: 4,
+    title: 'Learning english words',
+    description: 'Приложение для изучения Английских слов',
     image: '/projects/3.png',
     tag: ['All', 'Frontend'],
     gitUrl: 'https://github.com/conservativ007/learn-english',
     previewUrl: 'https://learn-english-by-conservative.netlify.app/',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Shelter',
     description: 'Сайт помощи бездомным животным',
     // description: 'Shelter not only people need a house',
@@ -61,7 +70,7 @@ export const projectsData = [
     previewUrl: 'https://conservativ007.github.io/shelter/',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Пазл',
     description: 'Попробуй свои силы в пазле',
     // title: 'Puzzle',
@@ -73,7 +82,7 @@ export const projectsData = [
       'https://rolling-scopes-school.github.io/conservativ007-JS2020Q3/game-puzzle/',
   },
   {
-    id: 6,
+    id: 7,
     title: 'Momentum',
     description: 'Приложение погоды',
     // description: 'Clone of the application of the same name',
@@ -83,7 +92,7 @@ export const projectsData = [
     previewUrl: 'https://momentumbyconservativ.netlify.app/',
   },
   {
-    id: 7,
+    id: 8,
     title: 'Web dev',
     description: 'Вёрстка',
     // description: 'Layout',
@@ -93,7 +102,7 @@ export const projectsData = [
     previewUrl: 'https://conservativ007.github.io/webdev/',
   },
   {
-    id: 8,
+    id: 9,
     title: 'Английский для детей',
     description: 'Изучение некоторых английских слов для самых маленьких',
     // title: 'English for kids',
@@ -104,7 +113,7 @@ export const projectsData = [
     previewUrl: 'https://conservativ007.github.io/english-for-kids/',
   },
   {
-    id: 9,
+    id: 10,
     title: 'Крестики нолики',
     description: 'Игра крестики нолики',
     // title: 'Tic Tac Toe',
@@ -115,7 +124,7 @@ export const projectsData = [
     previewUrl: 'https://tic-tac-toe-conservative.netlify.app/',
   },
   {
-    id: 10,
+    id: 11,
     title: 'Бегущий по лезвию',
     description: 'Игра бегущий по лезвию',
     // title: 'Blade runner',
