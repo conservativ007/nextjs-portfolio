@@ -33,9 +33,9 @@ const About = () => {
             looking to expand my knowledge and skill set. I am a team player and
             I am excited to work with others to create amazing applications. */}
             Владею широким спектром современных технологий веб-разработки,
-            включая JavaScript (React/Redux toolkit), HTML/CSS, и знания в
-            области backend с использованием Node.js, Nest, и баз данных
-            (Postgres). Опыт работы с инструментами контроля версий,
+            включая JavaScript (React, Redux toolkit, React Query), HTML/CSS, и
+            знания в области backend с использованием Node.js, Nest, и баз
+            данных Postgres. Опыт работы с инструментами контроля версий,
             развертывания и автоматизации процессов (Git, Docker, CI/CD).
             Постоянно стремлюсь к изучению новых языков и технологий для
             повышения своей экспертизы в области программирования.

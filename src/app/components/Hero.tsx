@@ -8,7 +8,7 @@ import { downloadCV } from '../api/downloadCV'
 import { languageStore } from '@/app/store/zustand-store'
 
 const Hero = () => {
-  const { language, toggleLanguage } = languageStore((state) => state)
+  // const { language, toggleLanguage } = languageStore((state) => state)
 
   return (
     <section className='lg:py-16'>
@@ -31,8 +31,8 @@ const Hero = () => {
             technologies and stacks. My approach to development is to strive to
             create efficient, scalable and intuitive solutions for users. */}
             Опытный full-stack разработчик с комплексным подходом к созданию
-            веб-приложений, обладающий глубокими знаниями и опытом работы с
-            frontend и backend.
+            веб-приложений, обладающий знаниями и опытом работы с frontend и
+            backend.
           </p>
           <div>
             <button
