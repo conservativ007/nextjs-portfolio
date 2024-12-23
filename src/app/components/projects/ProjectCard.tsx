@@ -31,6 +31,7 @@ const ProjectCard = ({
         <div className='overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 '>
           {gitUrl && (
             <Link
+              target='_blank'
               href={gitUrl}
               className='h-14 w-14 mr-2 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link'
             >
@@ -40,6 +41,7 @@ const ProjectCard = ({
 
           {previewUrl && (
             <Link
+              target='_blank'
               href={previewUrl}
               className='h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link'
             >
