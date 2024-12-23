@@ -3,7 +3,7 @@ import React, { useState, useRef } from 'react'
 import ProjectCard from './ProjectCard'
 import ProjectTag from './ProjectTag'
 import { motion, useInView } from 'framer-motion'
-import { projectsData } from '../store/data'
+import { projectsData } from '../../store/data'
 
 const Projects = () => {
   const [tag, setTag] = useState('All')
@@ -33,6 +33,11 @@ const Projects = () => {
           onClick={handleTagChange}
           name='All'
           isSelected={tag === 'All'}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name='Commercial'
+          isSelected={tag === 'Commercial'}
         />
         <ProjectTag
           onClick={handleTagChange}

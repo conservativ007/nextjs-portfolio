@@ -63,6 +63,23 @@ const Skills = ({ tab }: ISkills) => {
         </ul>
       ),
     },
+    {
+      title: 'Work',
+      id: 'work',
+      content: (
+        <div className=''>
+          <span>Currently working at </span>
+          <Link
+            className='text-blue-500'
+            target='_blank'
+            href='https://paxcore.agency/'
+          >
+            paxcore
+          </Link>
+          <span> since 07.03.2024</span>
+        </div>
+      ),
+    },
   ]
 
   return (

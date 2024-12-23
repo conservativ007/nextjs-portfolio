@@ -134,4 +134,28 @@ export const projectsData = [
     gitUrl: 'https://github.com/conservativ007/rsclone',
     previewUrl: 'https://blade-runner-2021.netlify.app/',
   },
+  {
+    id: 12,
+    title: 'Нити света',
+    description: 'Благотворительный интернет магазин',
+    image: '/projects/12.png',
+    tag: ['All', 'Commercial'],
+    previewUrl: 'https://nitisveta.ru/',
+  },
+  {
+    id: 13,
+    title: 'Bua Thai',
+    description: 'Спа-салон тайского массажа',
+    image: '/projects/13.png',
+    tag: ['All', 'Commercial'],
+    previewUrl: 'https://buathai.ru/spb/spa',
+  },
+  {
+    id: 14,
+    title: 'Berrybook',
+    description: 'Верный спутник в путешествии!',
+    image: '/projects/14.png',
+    tag: ['All', 'Commercial'],
+    previewUrl: 'https://berrybook.com/',
+  },
 ]

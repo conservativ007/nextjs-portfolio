@@ -49,6 +49,13 @@ const About = () => {
               Skills{' '}
             </TabButton>
             <TabButton
+              selectTab={() => handleTabChange('work')}
+              active={tab === 'work'}
+            >
+              {' '}
+              Work{' '}
+            </TabButton>
+            <TabButton
               selectTab={() => handleTabChange('education')}
               active={tab === 'education'}
             >
