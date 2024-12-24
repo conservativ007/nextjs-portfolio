@@ -11,12 +11,12 @@ const Skills = ({ tab }: ISkills) => {
       title: 'Skills',
       id: 'skills',
       content: (
-        <ul className='list-disc pl-2'>
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>Redux/Redux Toolkit</li>
-          <li>Node.js</li>
-          <li>Nest</li>
+        <ul className='list-disc pl-4'>
+          <li>JavaScript / React</li>
+          <li>Redux / Redux Toolkit</li>
+          <li>Node.js / Nest</li>
+          <li>Next</li>
+          <li>Tailwind</li>
           <li>TypeScript</li>
           <li>PostgreSQL</li>
           <li>Prisma</li>
@@ -30,39 +30,59 @@ const Skills = ({ tab }: ISkills) => {
       title: 'Education',
       id: 'education',
       content: (
-        <ul className='list-disc pl-2'>
-          <li>The Rolling Scopes School</li>
-          <li>Self education</li>
-          <li>Codewars</li>
-        </ul>
+        <div className='grid grid-cols-1 gap-2'>
+          <p className='text-[18px]'>The Rolling Scopes School</p>
+
+          <p>Certifications</p>
+          <ul className='list-disc pl-4'>
+            <li>
+              <Link
+                className='text-blue-500'
+                target='_blank'
+                href='https://app.rs.school/certificate/q8gv8p3w'
+              >
+                JavaScript
+              </Link>
+            </li>
+            <li>
+              <Link
+                className='text-blue-500'
+                target='_blank'
+                href='https://app.rs.school/certificate/bedir6l9'
+              >
+                React
+              </Link>
+            </li>
+          </ul>
+        </div>
       ),
     },
-    {
-      title: 'Certifications',
-      id: 'certifications',
-      content: (
-        <ul className='list-disc pl-2'>
-          <li>
-            <Link
-              className='text-blue-500'
-              target='_blank'
-              href='https://app.rs.school/certificate/q8gv8p3w'
-            >
-              JavaScript
-            </Link>
-          </li>
-          <li>
-            <Link
-              className='text-blue-500'
-              target='_blank'
-              href='https://app.rs.school/certificate/bedir6l9'
-            >
-              React
-            </Link>
-          </li>
-        </ul>
-      ),
-    },
+    // {
+    //   title: 'Certifications',
+    //   id: 'certifications',
+    //   content: (
+    //     <ul className='list-disc pl-2'>
+    //       <li>
+    //         <Link
+    //           className='text-blue-500'
+    //           target='_blank'
+    //           href='https://app.rs.school/certificate/q8gv8p3w'
+    //         >
+    //           JavaScript
+    //         </Link>
+    //       </li>
+    //       <li>
+    //         <Link
+    //           className='text-blue-500'
+    //           target='_blank'
+    //           href='https://app.rs.school/certificate/bedir6l9'
+    //         >
+    //           React
+    //         </Link>
+    //       </li>
+    //     </ul>
+    //   ),
+    // },
     {
       title: 'Work',
       id: 'work',

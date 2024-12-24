@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main className='flex min-h-screen flex-col bg-[#121212]'>
       <Navbar />
-      <div className='container mt-24 mx-auto px-14 py-4'>
+      <div className='container mt-24 mx-auto md:px-14 px-4 py-4'>
         <Hero />
         <Achievements />
         <About />
