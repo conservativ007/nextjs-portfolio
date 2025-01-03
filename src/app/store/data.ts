@@ -116,8 +116,8 @@ export const projectsData = [
     // description: 'Clone of the application of the same name',
     image: '/projects/6.2.png',
     tag: ['All', 'Frontend'],
-    gitUrl: 'https://github.com/conservativ007/momentum',
-    previewUrl: 'https://momentumbyconservativ.netlify.app/',
+    gitUrl: 'https://github.com/conservativ007/momentum-r',
+    previewUrl: 'https://momentum-r.vercel.app/',
   },
   {
     id: 9,
