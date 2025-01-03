@@ -149,7 +149,7 @@ export const projectsData = [
     image: '/projects/9.png',
     tag: ['All', 'Frontend'],
     gitUrl: 'https://github.com/conservativ007/react-game',
-    previewUrl: 'https://tic-tac-toe-conservative.netlify.app/',
+    previewUrl: 'https://tic-tac-toe-by-conservativ.netlify.app/',
   },
   {
     id: 12,
