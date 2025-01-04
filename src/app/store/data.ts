@@ -46,14 +46,22 @@ export const projectsData = [
   },
   {
     id: 4,
+    title: 'Юрист подряды',
+    description: 'Лучший сайт по подрядам в рунете!',
+    image: '/projects/15.png',
+    tag: ['All', 'Commercial'],
+    previewUrl: 'https://krupps.ru/',
+  },
+  {
+    id: 5,
     title: 'Project: Music Service',
     description: 'Служба домашней библиотеки!',
     // description:
     //   'Created a Home Library Service! Users can create, read, update, delete data about Artists, Tracks and Albums, add them to Favorites in their own Home Library!',
-    image: '/projects/1.png',
+    image: '/projects/1-5.png',
     tag: ['All', 'RSSchool'],
     gitUrl: 'https://github.com/conservativ007/nodejs2022Q4-service',
-    previewUrl: '/',
+    previewUrl: '',
   },
   // {
   //   id: 5,
