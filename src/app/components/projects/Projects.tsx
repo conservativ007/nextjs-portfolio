@@ -41,10 +41,10 @@ const Projects = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name='Frontend'
-          isSelected={tag === 'Frontend'}
+          name='RSSchool'
+          isSelected={tag === 'RSSchool'}
         />
-        <ProjectTag
+        {/* <ProjectTag
           onClick={handleTagChange}
           name='Backend'
           isSelected={tag === 'Backend'}
@@ -53,7 +53,7 @@ const Projects = () => {
           onClick={handleTagChange}
           name='Front+Back'
           isSelected={tag === 'Front+Back'}
-        />
+        /> */}
       </div>
       <ul ref={ref} className='grid md:grid-cols-3 gap-16 md:gap-12'>
         {filteredProjects.map((project, index) => (
