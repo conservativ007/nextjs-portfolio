@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import { Suspense } from 'react'
+import Metrika from '@/app/components/Metrika'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,6 +21,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
+      <Suspense>
+        <Metrika />
+      </Suspense>
       <body className={inter.className}>{children}</body>
     </html>
   )
